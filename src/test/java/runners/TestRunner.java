@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features/UploadDownload.feature",
+        features = "src/test/resources/features/BrowserWindows.feature",
         glue = {"stepDefinitions"},
         plugin = {
                 "pretty",
